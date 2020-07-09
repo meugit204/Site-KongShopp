@@ -1,11 +1,20 @@
 ====== RESET ======*/
 * {margin: 0; padding: 0; font-size: 100%;  box-sizing: border-box; 
-overflow: auto;text-decoration: none; background-image: url(../IMG/fundo.jpg);
+overflow: auto;}
+img {max-width: 100%;}
+a {text-decoration: none;}
+body {
+/*width: 100%;*/
+/*height: auto;*/
+/*PARA MUDAR O FUNDO DA PAGINA*/
+
+/*background: #faf1b3;*/
+background-image: url(../IMG/fundo.jpg);
 background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: cover;
-background-position: center;}
-
+background-position: center; 
+}
 
 /*contaner com o titulo da pagina*/
 
@@ -116,6 +125,7 @@ background-position: center;}
 .logo-fim img {
 	width: 20%;
 	margin-top: 5%;
+	max-width: 100%;
 }
 .icons-fim i {
 	padding: 0 3% 0 3%;
