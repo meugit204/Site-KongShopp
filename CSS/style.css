@@ -1,0 +1,138 @@
+====== RESET ======*/
+* {margin: 0; padding: 0; font-size: 100%;  box-sizing: border-box; 
+}
+body {
+width: 100%;
+height: auto;
+
+
+
+/*PARA MUDAR O FUNDO DA PAGINA*/
+
+/*background: #faf1b3;*/
+background-image: url(../IMG/fundo.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+/*>>>>>>>>>>>>>>>>>>*/
+
+overflow: auto; }
+img {max-width: 100%;}
+a { text-decoration: none;}
+
+/*contaner com o titulo da pagina*/
+
+.logo {
+	width: 30%;	
+}
+.container01 {
+	/*background: rgba(151,125,121,0.3);*/
+	/*background-color: #fff;*/
+	margin-top: -5%;
+}
+.container-contatos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	/*margin-top: -10%;*/
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+.container-contatos i {
+	font-size: 1.5em;
+	margin-top: -7%;
+	color: #fff;
+}
+
+/*>>>>>>>>>>>>>*/
+
+
+/*PARTE QUE FALA SOBRE A LOJA*/
+
+.sobre {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.sobre h2 {
+	font-family: 'Changa', sans-serif;
+	color: #05edfb;
+}
+.sobre p {
+	padding: 1%;
+	font-size: 1em;
+	color: #fff;
+	text-align: justify;
+	background: rgba(0,0,0,0.3);
+	font-weight: 500;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*>>>>>>>>>>>*/
+
+/*PARTE QUE TEM OS LINKS DA LOJA*/
+.links {
+	margin-top: 7%;
+	font-size: 1em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	font-family: 'Roboto', sans-serif;
+	color: #05edfb;
+}
+.links p {
+	font-weight: bolder;
+}
+/*>>>>>>>>*/
+
+
+/*BOTOES DA LOJA*/
+.btn{
+	font-family: 'Amaranth', sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 5%;
+}
+.btn-clique{
+	background: #000;
+	color:#fff;
+	box-shadow: 0 5px 0 #05edfb;
+}
+.btn-clique:hover{
+	background: #2bf974;
+	color:#fff;
+	box-shadow: 0 5px 0 #000;
+}
+.btn-clique:active{
+	position: relative;
+	top: 5px;
+	box-shadow: none;
+}
+
+/*>>>>>>>>>>
+
+
+/*PARTE FINAL DA PAGIN*/
+
+.logo-fim img {
+	width: 20%;
+	margin-top: 5%;
+}
+.icons-fim i {
+	padding: 0 3% 0 3%;
+	color: #fff;
+	font-size: 1em;
+}
+
+/*>>>>>>>>>>*/
