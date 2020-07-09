@@ -1,31 +1,19 @@
 ====== RESET ======*/
 * {margin: 0; padding: 0; font-size: 100%;  box-sizing: border-box; 
-}
-body {
-width: 100%;
-height: auto;
-
-
-
-/*PARA MUDAR O FUNDO DA PAGINA*/
-
-/*background: #faf1b3;*/
-background-image: url(../IMG/fundo.jpg);
+overflow: auto;text-decoration: none; background-image: url(../IMG/fundo.jpg);
 background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: cover;
-background-position: center;
+background-position: center;}
 
-/*>>>>>>>>>>>>>>>>>>*/
-
-overflow: auto; }
-img {max-width: 100%;}
-a { text-decoration: none;}
 
 /*contaner com o titulo da pagina*/
 
 .logo {
 	width: 30%;	
+}
+.logo img {
+	max-width: 100%;
 }
 .container01 {
 	/*background: rgba(151,125,121,0.3);*/
